@@ -1,0 +1,134 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px ;
+  }
+  body{
+    margin: 0px ;
+    padding: 0px ;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.section-two{
+    background-color: rgba(51, 50, 50, 0.068);
+}
+.our-servise-head h1{
+    padding: 30px 0px;
+    color: white;
+    font-size: 3.5rem;
+     font-weight: 700;
+    text-shadow: 2px 1px 10px rgb(160, 160, 160) ;
+
+}
+.services{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px ;
+}
+
+.service-card1{
+    width: 280px   !important;
+}
+.service-card1 img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50% ;
+    width: 210px ;
+    height: 210px ;
+    object-fit: cover;
+    margin: 10px auto;
+}
+.service-card2{
+    width: 280px   !important;
+    
+}
+.service-card2 img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50% ;
+    width: 210px;
+    height: 210px;
+    margin: 10px auto;
+    object-fit: fill;
+
+}
+.card-img-top{
+    margin-top: 10px ;
+    height: 200px ;
+    object-fit: cover !important;
+    border-radius: 10px ;
+    
+}
+.card{
+    border-radius: 20px !important;
+    border: none !important;
+    background-color: transparent !important;
+    
+}
+.card-img-top:hover{
+    padding: 0px;
+        cursor: pointer;
+        transform: rotateY(360deg);
+        transition: transform 2s;
+        transform-style: preserve-3d;
+        filter: drop-shadow(0px 0px 10px  rgba(109, 109, 109, 0.74));
+        
+}
+.rupees{
+    color: rgba(91, 92, 89, 0.74);
+    font-weight: 600;
+}
+.cart{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(221, 219, 219);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+.cart a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2rem;
+    margin-left: 20px ;
+}
+.suits{
+    margin-bottom: 40px;
+    background:linear-gradient(rgba(80, 80, 79, 0.6), rgba(0, 0, 0, 0.4)), url(image/suits/Mens\ Eid\ Salwar\ Kameez\ Suits\ 4.jpg) no-repeat center center/ cover;
+    height: 400px;
+    width: 100%;
+    border-radius: 50px;
+}
+.suits>h1{
+    padding-top: 280px ;
+}
+
+
+
+/*Ext classes  */
+
+.center{
+    text-align: center;
+}
+.main-page>h2{
+    padding: 20px 0px ;
+
+}
+.main-page>h2>a{
+    color: grey !important;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.main-page>h2>a:hover{
+    text-decoration: underline;
+    
+}
+.trans:hover{
+    transition: all 1s ease-in-out;
+    border-radius: 50px;
+    height: 200px;
+    width: 200px ;
+    text-align: center;
+}

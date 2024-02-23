@@ -1,0 +1,440 @@
+@media only screen and  (min-width: 350px) and (max-width: 575px){
+    .about-img>img{
+        margin: auto;
+        width: 300px !important;
+        height: 300px  !important;
+    }
+    .about-img{
+        height: 400px !important;
+    }
+    .about-text h4{
+        font-size: 18px !important;
+    }
+    .footer-link{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px !important;
+    }
+    .footer-link ul li{
+        margin: 5px  !important;
+    }
+}
+@media only screen and (max-width: 471px) {
+    .section-three{
+        height: inherit !important;
+    }
+    .about-text p{
+        font-size: 12px !important;
+        
+    }
+}
+@media only screen and  (min-width: 576px) and (max-width: 606px) {
+    .section-two{
+        height: inherit !important;
+    }
+}
+@media  only screen and (min-width: 767px) and (max-width: 889px)  {
+
+    .section-two{
+        height: inherit !important;
+    }
+    .section-three{
+        height: inherit !important;
+    }
+}
+@media  only screen and (min-width: 889px) and (max-width: 991px)  {
+    .section-two{
+        height: inherit !important ;
+    }
+    .service-card1 img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .service-card2 img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .cart a{
+        margin-left: 10px;
+
+    }
+}
+@media  only screen and (min-width: 890px) and (max-width: 1218px) {
+    /* service cards */
+    .services{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px ;
+    }
+    
+    .service-card1{
+        width: 22%   !important;
+    }
+    .service-card2{
+        width: 22%   !important;   
+    }
+    .service-card1 img{
+        width: 250px ;
+        height: 250px ;
+    }
+    .service-card2 img{
+        width: 250px ;
+        height: 250px ;
+    }
+    .section-two{
+        height: inherit  !important;
+    }
+}
+
+@media only screen and  (max-width: 575px){
+    .nav-logo{
+        margin-left: 0px ;
+    }
+    .nav-logo img {
+        width: 50px;
+    }
+    /* section one  */
+    
+    .home-text{
+        padding-top: 130px;
+        height: 400px ;
+    }
+    .home-text p{
+        width: 100% !important;
+        font-size: 16px ;
+    }
+    
+    .home-text h1{
+        margin-top: 30px !important;
+        margin-bottom: 20px ;
+        font-size: 2.5rem;
+    }
+    .home-btn{
+        padding: 4px !important;
+        background-color: black;
+    }
+    /* services section  */
+    .our-servise-head h1{
+        padding: 30px 0px;
+        color: white;
+        font-size: 2.2rem;
+         font-weight: 600;
+    }
+    .service-card1 img{
+        width: 200px ;
+        height: 200px ;
+    }
+    .service-card2 img{
+        width: 200px ;
+        height: 200px ;
+    }
+    .section-two{
+        height: inherit ;
+    }
+    .section-three{
+        height: inherit !important  ;
+    }
+    .about-text h1{
+        padding: 0px 0px;
+        font-size: 2.3rem;
+        font-weight: 700;
+        text-shadow: 2px 1px 10px rgb(41, 40, 40) ;
+    }
+    .about-text p{
+        color: white;
+        font-size: 14px;
+    }
+    .section-three{
+        height: inherit !important;
+    }
+    .about-img{
+        height: 300px ;
+    }
+    .about-img>img{
+        margin: auto;
+        width: 200px ;
+        height: 200px  ;
+    }
+    .about-main{
+        margin: auto !important;
+        text-align: center;
+    }
+    .about-text h1{
+        font-size: 2.5rem;
+    }
+    .about-text h4{
+        padding: 30px 0px;
+        font-size: 15px;
+    }
+    .about-text p{
+        font-size: 1rem;
+    }
+    .about-text .btn{
+        margin: 30px  auto;
+    
+    }
+    .footer-main ul li{
+       font-size: 14px ;
+       margin: 0px !important;
+    }
+    .footer-end{
+       font-size: 14px ;
+
+    }
+    .contact-img img{
+        border-radius: 50%;
+        width: 250px ;
+        height: 250px ;
+    }
+    .links{
+        margin: 10px ;
+    }
+    .winter{
+        width: 100% !important;
+        height: 300px;
+        font-size: 26px ;
+    }
+
+    .winter h1{
+        font-size: 2.2rem;
+        padding-top: 200px ;
+    }
+    .summer{
+        width: 100% !important;
+        font-size: 27px;
+        height: 300px;
+    
+    }
+    .suits{
+        height: 300px;
+        width: 100% !important;
+        font-size: 26px ;
+    }
+    .suits h1{
+        font-size: 2.2rem;
+        padding-top: 200px ;
+    }
+    .acc{
+        height: 300px;
+        width: 100% !important;
+        font-size: 25px;
+    }
+    .Accessories h1{
+        padding-top:310px  ;
+        
+        /* background-color: red; */
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+
+@media only screen and  (min-width: 576px) and (max-width: 767.98px) {
+   /* section one  */
+   .home-text{
+    padding-top: 180px ;    
+}
+.home-text h1{
+    font-size: 3rem;
+    margin: 30px ;
+}
+.home-text p{
+    font-size: 1rem;
+    width: 100%;
+
+}
+.service-card1 img{
+    width: 230px ;
+    height: 230px ;
+}
+.service-card2 img{
+    width: 230px ;
+    height: 230px ;
+}
+.section-two{
+    height: inherit ;
+}
+
+.section-three{
+    height: inherit !important  ;
+}
+.about-text h1{
+    padding: 20px 0px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 1px 10px rgb(41, 40, 40) ;
+}
+.about-text p{
+    color: white;
+    font-size: 15px ;
+}
+.section-three{
+    height: inherit !important;
+}
+.about-img>img{
+    width: 380px ;
+    height: 380px ;
+    margin: auto;
+}
+.about-main{
+    margin: auto !important;
+    text-align: center;
+}
+.about-text h1{
+    font-size: 3.5rem;
+}
+.about-text h4{
+    padding: 30px 0px;
+}
+.about-text p{
+    font-size: 1rem;
+}
+.about-text .btn{
+    margin: 30px auto ;
+
+}
+.links{
+    margin: 10px ;
+}
+.links a{
+    font-size: 2rem;
+     /* background-color: red; */
+    }
+.winter{
+    width: 100% !important;
+    height: 320px;
+}
+.winter h1{
+    font-size: 2.2rem;
+    padding-top: 200px ;
+}
+
+.summer{
+    width: 100% !important;
+    font-size: 30px;
+    height: 300px;
+
+}
+.suits{
+    height: 300px;
+    width: 100% !important;
+}
+.suits h1{
+    font-size: 2.8rem;
+    padding-top: 220px ;
+}
+.acc{
+    height: 300px;
+    width: 100% !important;
+    font-size: 30px;
+}
+
+
+}
+/* // Medium devices (tablets, 768px and up) */
+
+@media  only screen and (min-width: 768px) and (max-width: 991.98px)  {
+    .section-two{
+        height: inherit !important  ;
+    }
+    .service-card1 img{
+        width: 240px ;
+        height: 240px ;
+    }
+    .service-card2 img{
+        width: 240px ;
+        height: 240px ;
+    }
+    
+.section-three{
+    height: inherit !important;
+}
+.about-img>img{
+    width: 420px ;
+    height: 420px ;
+    margin: auto;
+}
+.about-main{
+    margin: auto !important;
+    text-align: center;
+}
+.about-text h1{
+    font-size: 3.5rem;
+}
+.about-text h4{
+    padding: 30px 0px;
+}
+.about-text p{
+    font-size: 1rem;
+}
+.about-text .btn{
+    margin: 30px auto ;
+
+}
+.links{
+    margin: 10px ;
+}
+.winter{
+    width: 100% !important;
+    font-size: 22px;
+    height: 340px;
+
+}
+.summer{
+    width: 100% !important;
+    font-size: 25px;
+    height: 300px;
+
+}
+.suits{
+    font-size: 25px !important;
+    height: 320px;
+    width: 100% !important;
+  
+}
+.suits h1{
+    font-size: 2.8rem;  
+    padding-top: 220px;
+}
+.acc{
+    height: 300px;
+    width: 100% !important;
+    font-size: 25px;
+}
+
+}
+/* // Large devices (desktops, 992px and up) */
+@media  only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .service-card1 img{
+        width: 200px ;
+        height: 200px ;
+    }
+    .service-card2 img{
+        width: 200px ;
+        height: 200px ;
+    }
+    .winter{
+        font-size: 25px;
+    }
+    .summer{
+        font-size: 25px;
+    }
+    .suits{
+        font-size: 25px;
+      
+    }
+    .acc{
+        font-size: 25px;
+    }
+    
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and  (min-width: 1200px) and (max-width: 1399.98px){
+    .section-two{
+        height: inherit !important;
+    }
+}
+@media only screen and  (min-width: 1400px) { 
+    .section-two{
+        height: inherit !important;
+    }
+}
