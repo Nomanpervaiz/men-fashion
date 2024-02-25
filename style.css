@@ -179,6 +179,7 @@ html{
     border: rgb(201, 197, 197) 2px solid ;
     margin: 20px;
     padding: 0px;
+    border-radius: 50px !important;
     font-weight: 600; 
 }
 .links a:hover{
@@ -395,7 +396,7 @@ footer{
     height: 300px;
 }
 .acc{
-    background: linear-gradient(rgba(80, 80, 79, 0.315), rgba(0, 0, 0, 0.164)),url(image/acc/6b1df3bf020f095e6ad0e196dfb73ee5.jpg) no-repeat center top/ cover;
+    background: linear-gradient(rgba(80, 80, 79, 0.315), rgba(0, 0, 0, 0.164)),url(image/acc/e20a6095397f46de675e51c4c10a7fe8.jpg) no-repeat center top/ cover;
     width: 20% !important;
     font-size: 2rem;
     border-radius: 50px;
