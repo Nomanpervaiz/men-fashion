@@ -11,9 +11,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
-
 }
-
 
 /* navbar start here  */
 
@@ -75,7 +73,7 @@ html{
     color: white;
     display: flex;
     flex-direction: column; 
-    margin: auto;
+    margin: auto ;
     text-align: center;
     padding-top:  240px ;    
     text-shadow: 2px 1px 10px rgb(41, 40, 40) ;
@@ -86,8 +84,10 @@ html{
     margin: auto;
 }
 .home-text h1{
+    margin: auto;
         font-size: 4rem;
         font-weight: 700;
+        width: 90%;
 }
 
 /* section two  */
